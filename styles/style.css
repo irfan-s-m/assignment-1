@@ -1,0 +1,73 @@
+/* Heading banner style START */
+.heading-banner {
+  background-image: url("../resources/banner.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(rgba(7, 2, 17, 0) 100%);
+  margin-top: 50px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+.heading-banner h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 177px 531px 5px 530px;
+}
+
+.heading-banner h1 {
+  color: #ece6e6;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.5em;
+  height: 3em;
+  text-wrap: wrap;
+}
+/* heading banner style END */
+
+/* Section - 1 style START */
+.section-1 h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-1 h5 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.section-1 h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-1 img {
+  width: 802.9px;
+  height: 500px;
+  padding-left: 399px;
+}
+/* Section - 1 style END */
