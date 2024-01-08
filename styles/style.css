@@ -120,6 +120,7 @@
   padding: 50px;
 }
 /* Section - 2 END */
+
 /* Section - 3 Start */
 .section-3 {
   background: linear-gradient(#ff000041, #ffffff1c);
@@ -152,32 +153,47 @@
 }
 
 .section-3-button button {
-  display: inline-flex;
   padding: 16px 32px;
   color: white;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   border-radius: 8px;
   background: #f00;
 }
 /* Section - 3 END */
 
-
-
 /* SECTION - 6 START */
 .section-6 {
-
+  margin: 100px 15px 0 15px;
 }
 
-.section-6-heading {
+.section-6-heading > h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+}
 
+.section-6-heading > h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.section-6-heading > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  width: 896px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .section-6-image {
-display: flex;
-flex-direction: column;
-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .section-6-image-row-1 {
@@ -186,10 +202,66 @@ gap: 24px;
 }
 
 .section-6-image-row-2 {
-display: flex;
-gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 /* SECTION - 6 END */
+
+/* SECTION - 7 START */
+.section-7 {
+  width: 1320px;
+  height: 616px;
+  margin: 100px 15px 0 15px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.09);
+}
+
+.section-7-container {
+  text-align: center;
+  padding: 100px;
+}
+
+.section-7-container-element > h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.section-7-container-element > p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.section-7-form-button { 
+  display: flex;
+  padding-left: 310px ;
+}
+
+.section-7-form {
+  width: 330px;
+  height: 50px;
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  border: none;
+}
+
+.section-7-button {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: white;
+  font-size: 20px;
+  width: 180px;
+  height: 52px;
+}
+/* SECTION - 7 END */
+
 /* Footer style START */
 .footer {
   background: #070211;
