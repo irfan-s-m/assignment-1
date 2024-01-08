@@ -95,7 +95,7 @@
   width: 642px;
   padding: 80px 0px 0px 0px;
   line-height: 70px;
-  text-wrap: wrap;
+  letter-spacing: 7px;
 }
 
 .section-2-text p {
@@ -160,6 +160,72 @@
   background: #f00;
 }
 /* Section - 3 END */
+
+/* SECTION - 4 START */
+.section-4 {
+display: flex;
+margin-top: 100px;
+margin-bottom: 100px;
+text-align: center;
+justify-content: space-around;
+}
+
+.section-4-left {
+text-align: left;
+}
+
+.section-4-left > h4 {
+  color: #F00;
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+}
+
+.section-4-left > h1 {
+  color: #070211;
+font-family: Merriweather;
+font-size: 44px;
+font-weight: 900;
+}
+
+.section-4-left > p {
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+
+.section-4-mid {
+  border-radius: 400px;
+  border: 15px solid #F00;
+  padding: 49px;
+}
+
+.section-4-right {
+text-align: left;
+}
+
+.section-4-right > h1 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.section-4-right > p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.section-4-right > img {
+  width: 140px;
+  height: 140px;
+}
+/* SECTION - 4 END */
 
 /* SECTION - 6 START */
 .section-6 {
