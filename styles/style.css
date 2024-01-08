@@ -1,14 +1,12 @@
 /* Heading banner style START */
 .heading-banner {
-  background-image: url("../resources/banner.png");
+  background-image: linear-gradient(180deg, rgb(0, 0, 0), #1a19195e),
+    url("../resources/banner.png");
   background-repeat: no-repeat;
   max-width: 1320px;
   max-height: 600px;
-  border-radius: 18px;
-  background: linear-gradient(rgba(7, 2, 17, 0) 100%);
-  margin-top: 50px;
-  margin-right: 140px;
-  margin-left: 140px;
+  border-radius: 16px;
+  margin: 50px 15px;
 }
 
 .heading-banner .heading-banner-h5 {
@@ -16,10 +14,7 @@
   text-align: center;
   font-family: Merriweather;
   font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding: 177px 531px 5px 530px;
+  padding-top: 40px;
 }
 
 .heading-banner .heading-banner-h1 {
@@ -27,9 +22,7 @@
   text-align: center;
   font-family: Merriweather;
   font-size: 50px;
-  padding: 0px 300px 100px 300px;
   height: 600px;
-  text-wrap: wrap;
 }
 /* heading banner style END */
 
@@ -74,9 +67,18 @@
 
 /* Section - 2 Start */
 .section-2 {
-  background-image: url("../resources/vector.png");
+  background-image: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0),
+      rgb(1, 0, 20)
+    ),
+    url("../resources/vector.png");
   background-repeat: no-repeat;
   background-position: center;
+  margin: 15px;
+  width: 1320px;
+  height: 600px;
+  align-items: center;
 }
 
 .section-2-content {
@@ -89,10 +91,10 @@
   text-align: left;
   font-family: Merriweather;
   font-size: 64px;
-  margin-left: 195px;
+  margin-left: 75px;
   width: 642px;
-  padding: 80px 0px 0px 40px;
-  line-height: 88px;
+  padding: 80px 0px 0px 0px;
+  line-height: 70px;
   text-wrap: wrap;
 }
 
@@ -100,12 +102,8 @@
   color: rgba(255, 255, 255, 0.884);
   font-family: Inter;
   font-size: 18px;
-  margin-left: 195px;
+  margin-left: 75px;
   width: 697px;
-  padding: 0px 0px 0px 35px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
 }
 .section-2-button {
   color: #ffffff;
@@ -113,7 +111,8 @@
   font-family: Inter;
   font-size: 30px;
   background-color: transparent;
-  margin-left: 300px;
+  margin-top: 20px;
+  margin-left: 120px;
   text-transform: uppercase;
 }
 
@@ -123,10 +122,13 @@
 /* Section - 2 END */
 /* Section - 3 Start */
 .section-3 {
-  background: linear-gradient(#d8070728, #ffffff00);
+  background: linear-gradient(#ff000041, #ffffff1c);
   width: 1320px;
   height: 482px;
-  margin: 120px auto;
+  margin: 100px 15px 0 15px;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
 }
 
 .section-3-design {
@@ -144,10 +146,8 @@
   color: #070211;
   font-family: Inter;
   font-size: 32px;
-  margin: 5000px 525px, 214px 385px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px;
   text-transform: capitalize;
 }
 
@@ -155,7 +155,6 @@
   display: inline-flex;
   padding: 16px 32px;
   color: white;
-  margin: 80px 50px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -164,11 +163,40 @@
 }
 /* Section - 3 END */
 
+
+
+/* SECTION - 6 START */
+.section-6 {
+
+}
+
+.section-6-heading {
+
+}
+
+.section-6-image {
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+
+.section-6-image-row-1 {
+  display: flex;
+  gap: 24px;
+}
+
+.section-6-image-row-2 {
+display: flex;
+gap: 24px;
+}
+/* SECTION - 6 END */
 /* Footer style START */
 .footer {
   background: #070211;
-  width: 1600px;
+  width: 1320px;
   height: 609px;
+  margin: 100px 15px 0 15px;
+  align-items: center;
 }
 
 .footer-1 {
@@ -193,12 +221,46 @@
   margin-right: 140px;
 }
 
-.horizontal-line-1 {
-    margin-top: 50px;
-  color: rgb(2, 65, 184);
+#horizontal-line-1 {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.15);
   width: 1320px;
   height: 1px;
 }
 
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+#horizontal-line-2 {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.15);
+  width: 1320px;
+  height: 1px;
+}
+
+.footer-3 {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-3-right {
+  margin-top: 40px;
+  margin-left: 120px;
+}
+
+.footer-3-left {
+  margin-top: 40px;
+  margin-right: 90px;
+}
 /* Footer style END */
