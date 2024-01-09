@@ -275,26 +275,27 @@ height: 229px;
 
 .img-1 {
   position: relative;
-  height: 120%;
-  width: 60%;
-  left: 55px;
-  bottom: 80px;
+  height: 126%;
+  width: 63%;
+  left: 68px;
+  bottom: 100px;
 }
 
 .img-2 {
   position: relative;
-  height: 84%;
-  width: 38%;
+  height: 91%;
+  width: 40%;
   left: 446px;
-  bottom: 236px;
+  bottom: 258px;
+  z-index: 100;
 }
 
 .img-3 {
   position: relative;
-  height: 115%;
+  height: 116%;
   width: 50%;
   left: 495px;
-  bottom: 385px;
+  bottom: 402px;
 }
 
 /* SECTION - 5 END */
@@ -431,6 +432,11 @@ height: 229px;
   margin-right: 140px;
 }
 
+.footer-1-right-2 > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #horizontal-line-1 {
   margin-top: 50px;
   color: rgba(255, 255, 255, 0.15);
@@ -464,13 +470,18 @@ height: 229px;
   line-height: normal;
 }
 
-.footer-3-right {
+.footer-3-left {
   margin-top: 40px;
   margin-left: 120px;
 }
 
-.footer-3-left {
-  margin-top: 40px;
-  margin-right: 90px;
+.footer-3-right > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-3-right {
+  margin-top: 65px;
+  margin-right: 96px;
 }
 /* Footer style END */
